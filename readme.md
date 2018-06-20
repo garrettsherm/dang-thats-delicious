@@ -2,4 +2,18 @@
 
 Course website can be found here https://learnnode.com/, Wes' code for the course can be found https://github.com/wesbos/Learn-Node.
 
+## Installation
+
+Make sure that you have the latest stable versions of node.js, npm, and mongodb installed on your machine.
+
+Clone this repo into your working directory. 
+
+Mongodb should be set to run locally on port 27017.
+
+Rename file 'variables.env.sample' to 'variables.env'.
+
+Run 'npm install' to install project. 
+
+Run 'npm start' to start application. 
+
 
