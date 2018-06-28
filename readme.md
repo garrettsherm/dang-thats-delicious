@@ -16,4 +16,7 @@ Run 'npm install' to install project.
 
 Run 'npm start' to start application. 
 
+## Disclaimer
+
+I do not own any of the images/fonts/assets that have been included. The project was created from the starter files given here https://github.com/wesbos/Learn-Node.
 
