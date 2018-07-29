@@ -32,7 +32,12 @@ const storeSchema = new mongoose.Schema({
 			required: ' Muse supply an address'
 		}
 	},
-	photo: String
+	photo: String,
+	author: {
+		type: mongoose.Schema.ObjectId,
+		ref: 'User',
+		required: 'Author must be given'
+	}
 });
 
 storeSchema.pre('save', async function(next){
